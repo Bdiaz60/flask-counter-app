@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter Web App</title>
+</head>
+<body>
+    <h1>Current Count: {{ count }}</h1>
+    <a href="{{ url_for('add') }}"><button>Add</button></a>
+    <a href="{{ url_for('subtract') }}"><button>Subtract</button></a>
+    <a href="{{ url_for('reset') }}"><button>Reset</button></a>
+</body>
+</html>
